@@ -1,0 +1,129 @@
+#+SETUPFILE: theme-bigblow.setup
+
+* Basic Information
+#+NAME:BASIC
+| Name     | Class     | Level | Background        | Player Name |
+|----------+-----------+-------+-------------------+-------------|
+|          | Rogue     |     1 | Charlatan         | Matt        |
+
+| Race     | Alignment |    XP | Proficiency Bonus | Inspiration |
+|----------+-----------+-------+-------------------+-------------|
+| Half Elf | CG        |     0 | +2                |             |
+
+** Combat Information
+#+NAME:DERIVED
+| Initiative | Current HP | Temp HP | HD |
+|------------+------------+---------+----|
+|          2 |         10 |       0 | d8 |
+
+#+TBLFM: @2$1=remote(ATTRIBUTES, @3$3)
+
+* Attributes and Skills
+
+#+NAME:ATTRIBUTES
+| Attribute | Value | Mod | Save | Skills          |    |
+|-----------+-------+-----+------+-----------------+----|
+| STR       |    13 |   1 |      | Athletics       |  * |
+|-----------+-------+-----+------+-----------------+----|
+| DEX       |    15 |   2 | *    | Acrobatics      | *  |
+|           |       |     |      | Sleight of Hand | *  |
+|           |       |     |      | Stealth         | ** |
+|-----------+-------+-----+------+-----------------+----|
+| CON       |    14 |   2 |      |                 |    |
+|-----------+-------+-----+------+-----------------+----|
+| INT       |    10 |   0 | *    | Arcana          |    |
+|           |       |     |      | History         |    |
+|           |       |     |      | Investigation   |    |
+|           |       |     |      | Nature          |    |
+|           |       |     |      | Religion        |    |
+|-----------+-------+-----+------+-----------------+----|
+| WIS       |     8 |  -1 |      | Animal handling |    |
+|           |       |     |      | Insight         |    |
+|           |       |     |      | Medicine        |    |
+|           |       |     |      | Perception      | *  |
+|           |       |     |      | Survival        |    |
+|-----------+-------+-----+------+-----------------+----|
+| CHA       |    14 |   2 |      | Deception       | *  |
+|           |       |     |      | Intimidation    | *  |
+|           |       |     |      | Performance     |    |
+|           |       |     |      | Persuasion      | *  |
+
+
+* Kit
+** Weapons
+
+#+NAME:WEAPONS
+| Weapon   | ATK Bonus | Damage/Type | Range |
+|----------+-----------+-------------+-------|
+| Rapier   |         4 | d8          |       |
+| Shortbow |         4 | d6          | 30    |
+| Dagger   |         4 | d4          |       |
+|          |           |             |       |
+
+** Gear
+
+| Item           | Weight | Location |
+|----------------+--------+----------|
+| Rapier         |        |          |
+| Shortbow       |        |          |
+| Quiver (20)    |        |          |
+| Burglar's Pack |        |          |
+| Leather Armour |        |          |
+| Daggers (2)    |        |          |
+| Thieves' tools |        |          |
+| Fine Clothes   |        |          |
+| Disguise kit   |        |          |
+| Signet Ring    |        |          |
+| 15GP           |        |          |
+
+
+* Magic
+** Spellcasting
+#+NAME:SPELLSDERIVED
+| Spellcasting Ability | Spell Save DC | Spell Attack Bonus |
+|----------------------+---------------+--------------------|
+|                      |               |                    |
+
+** Spells
+
+#+NAME:SPELLS
+| Level | Spell |
+|-------+-------|
+|       |       |
+
+
+* Character
+
+#+NAME:RP
+| Features and Traits                 | Proficiencies   | Languages |
+|-------------------------------------+-----------------+-----------|
+| Expertise (Thieve's tools, Stealth) | Light Armour    | Elvish    |
+| Sneak Attack (+1d6 if have adv)     | Simple Weapons  | Common    |
+| Thieves' Cant                       | Hand Crossbow   | +1        |
+| Darkvision                          | Longswords      |           |
+| Advantage vs Sleep and Charm spells | Rapier          |           |
+| False Identity                      | Shortswords     |           |
+|                                     | Theive's Tools* |           |
+|                                     | Disguise Kit    |           |
+|                                     |                 |           |
+ 
+
+
+| Personality Traits                                                                                        |
+|-----------------------------------------------------------------------------------------------------------|
+| (Con Artist)                                                                                              |
+| I keep multiple holy symbols on me and invoke whatever deity might come in useful at any given moment     |
+
+| Ideals                                                                                                    |
+|-----------------------------------------------------------------------------------------------------------|
+| I'm determined to make something of myself                                                                |
+
+| Bonds                                                                                                     |
+|-----------------------------------------------------------------------------------------------------------|
+| I come frem a noble family, and one day 1'11 relaim my lands and title from those who stole them from me. |
+
+| Flaws                                                          |
+|----------------------------------------------------------------|
+| I can'! resist swindling people who are more powerful than me. |
+|                                                                |
+
