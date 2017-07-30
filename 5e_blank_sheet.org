@@ -1,0 +1,106 @@
+#+TITLE: Character Name
+#+SETUPFILE: theme-bigblow.setup
+* Basic Information
+
+#+NAME: BASIC
+| Name | Class | Level | Background | Player Name |
+|------+-------+-------+------------+-------------|
+|      |       |     1 |            | Matt        |
+
+| Race | Alignment | XP | Next Level | Proficiency Bonus | Inspiration |
+|------+-----------+----+------------+-------------------+-------------|
+|      |           |  0 |            |                   |             |
+
+** Combat Information
+#+NAME: DERIVED
+| Initiative | Current HP | Temp HP | HD | Passive Perception | AC |
+|------------+------------+---------+----+--------------------+----|
+|          1 |            |       0 |    |                    |    |
+|            |            |         |    |                    |    |
+#+TBLFM: @2$1=(remote(ATTRIBUTES, @4$3))
+
+** Features and Proficiencies
+#+NAME: RP
+| Features and Traits | Proficiencies | Languages |
+|---------------------+---------------+-----------|
+|                     |               |           |
+
+* Attributes and Skills
+
+#+NAME: ATTRIBUTES
+| Attribute | Value | Mod | Save | Skills          |   |
+|-----------+-------+-----+------+-----------------+---|
+| STR       |     4 |  -3 |      | Athletics       |   |
+|           |       |     |      |                 |   |
+|-----------+-------+-----+------+-----------------+---|
+| DEX       |    12 |   1 |      | Acrobatics      |   |
+|           |       |     |      | Stealth         |   |
+|-----------+-------+-----+------+-----------------+---|
+| CON       |    16 |   3 |      |                 |   |
+|-----------+-------+-----+------+-----------------+---|
+| INT       |       |     |      | Arcana          |   |
+|           |       |     |      | History         |   |
+|           |    18 |   4 |      | Investigation   |   |
+|           |       |     |      | Nature          |   |
+|           |       |     |      | Religion        |   |
+|-----------+-------+-----+------+-----------------+---|
+| WIS       |       |     |      | Animal handling |   |
+|           |    10 |   0 |      | Insight         |   |
+|           |       |     |      | Medicine        |   |
+|           |       |     |      | Perception      |   |
+|           |       |     |      | Survival        |   |
+|-----------+-------+-----+------+-----------------+---|
+| CHA       |       |     |      | Deception       |   |
+|           |     9 |  -1 |      | Intimidation    |   |
+|           |       |     |      | Performance     |   |
+|           |       |     |      | Persuasion      |   |
+#+TBLFM: @2$3=(floor (($2-10)/2))::@4$3=(floor (($2-10)/2))::@6$3=(floor (($2-10)/2))::@9$3=(floor (($2-10)/2))::@13$3=(floor (($2-10)/2))::@18$3=(floor (($2-10)/2))
+
+
+
+* Kit
+** Weapons
+
+#+NAME: WEAPONS
+| Weapon | ATK Bonus | Damage/Type | Range |
+|--------+-----------+-------------+-------|
+|        |           |             |       |
+
+** Gear
+
+| Item | Weight | Location |
+|------+--------+----------|
+|      |        |          |
+* Magic
+** Spellcasting
+#+NAME: SPELLSDERIVED
+| Spellcasting Ability | Spell Save DC | Spell Attack Bonus | Spell Slots | Spells known | Max level |
+|----------------------+---------------+--------------------+-------------+--------------+-----------|
+|                      |               |                    |             |              |           |
+
+** Spells
+#+NAME: SPELLS
+| Level | Spell             | Range | Notes                                                                    |
+|-------+-------------------+-------+--------------------------------------------------------------------------|
+
+* Character
+
+
+** Personality traits,Ideals, bonds, and flaws
+*** Personality traits
+
+*** Ideals
+  
+*** Bonds
+
+*** Flaws
+ 
+*** Description
+
+                                                                                                                                                                                                                                                       |
+** Contacts
+
+
+
+** Play Notes
+
