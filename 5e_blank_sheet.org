@@ -5,7 +5,7 @@
 #+NAME: BASIC
 | Name | Class | Level | Background | Player Name |
 |------+-------+-------+------------+-------------|
-|      |       |     1 |            | Matt        |
+|      |       |     1 |            |             |
 
 | Race | Alignment | XP | Next Level | Proficiency Bonus | Inspiration |
 |------+-----------+----+------------+-------------------+-------------|
@@ -28,32 +28,32 @@
 * Attributes and Skills
 
 #+NAME: ATTRIBUTES
-| Attribute | Value | Mod | Save | Skills          |   |
-|-----------+-------+-----+------+-----------------+---|
-| STR       |     4 |  -3 |      | Athletics       |   |
-|           |       |     |      |                 |   |
-|-----------+-------+-----+------+-----------------+---|
-| DEX       |    12 |   1 |      | Acrobatics      |   |
-|           |       |     |      | Stealth         |   |
-|-----------+-------+-----+------+-----------------+---|
-| CON       |    16 |   3 |      |                 |   |
-|-----------+-------+-----+------+-----------------+---|
-| INT       |       |     |      | Arcana          |   |
-|           |       |     |      | History         |   |
-|           |    18 |   4 |      | Investigation   |   |
-|           |       |     |      | Nature          |   |
-|           |       |     |      | Religion        |   |
-|-----------+-------+-----+------+-----------------+---|
-| WIS       |       |     |      | Animal handling |   |
-|           |    10 |   0 |      | Insight         |   |
-|           |       |     |      | Medicine        |   |
-|           |       |     |      | Perception      |   |
-|           |       |     |      | Survival        |   |
-|-----------+-------+-----+------+-----------------+---|
-| CHA       |       |     |      | Deception       |   |
-|           |     9 |  -1 |      | Intimidation    |   |
-|           |       |     |      | Performance     |   |
-|           |       |     |      | Persuasion      |   |
+| Attribute | Value | Mod | Save? | Skills          | Proficient? |
+|-----------+-------+-----+-------+-----------------+-------------|
+| STR       |     4 |  -3 |       | Athletics       |             |
+|           |       |     |       |                 |             |
+|-----------+-------+-----+-------+-----------------+-------------|
+| DEX       |    12 |   1 |       | Acrobatics      |             |
+|           |       |     |       | Stealth         |             |
+|-----------+-------+-----+-------+-----------------+-------------|
+| CON       |    16 |   3 |       |                 |             |
+|-----------+-------+-----+-------+-----------------+-------------|
+| INT       |       |     |       | Arcana          |             |
+|           |       |     |       | History         |             |
+|           |    18 |   4 |       | Investigation   |             |
+|           |       |     |       | Nature          |             |
+|           |       |     |       | Religion        |             |
+|-----------+-------+-----+-------+-----------------+-------------|
+| WIS       |       |     |       | Animal handling |             |
+|           |    10 |   0 |       | Insight         |             |
+|           |       |     |       | Medicine        |             |
+|           |       |     |       | Perception      |             |
+|           |       |     |       | Survival        |             |
+|-----------+-------+-----+-------+-----------------+-------------|
+| CHA       |       |     |       | Deception       |             |
+|           |     9 |  -1 |       | Intimidation    |             |
+|           |       |     |       | Performance     |             |
+|           |       |     |       | Persuasion      |             |
 #+TBLFM: @2$3=(floor (($2-10)/2))::@4$3=(floor (($2-10)/2))::@6$3=(floor (($2-10)/2))::@9$3=(floor (($2-10)/2))::@13$3=(floor (($2-10)/2))::@18$3=(floor (($2-10)/2))
 
 
@@ -71,6 +71,7 @@
 | Item | Weight | Location |
 |------+--------+----------|
 |      |        |          |
+
 * Magic
 ** Spellcasting
 #+NAME: SPELLSDERIVED
@@ -86,7 +87,7 @@
 * Character
 
 
-** Personality traits,Ideals, bonds, and flaws
+** Personality traits, ideals, bonds, and flaws
 *** Personality traits
 
 *** Ideals
